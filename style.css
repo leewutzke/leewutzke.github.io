@@ -11,28 +11,33 @@ body {
 
 hr {
   max-width: 65px;
-  border-width: 3px;
-  border-color: #F05F44; 
+  /*border-width: 3px;*/
+  /*border-color: none; */
+   /*border-color: #F05F44;*/
 }
 
 .faded {
-  color: rgba(255, 255, 255, 0.8); 
+  color: black; 
+  /*color: rgba(255, 255, 255, 0.8);*/
 }
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  background-image: url("CAD Systems Engineering.png");
   background-size: cover;
   height: 100%;
 }
 
 header.startup hr {
-  margin-top: 200px;
-  margin-bottom: 30px; 
+  margin-top: 500px;
+  margin-bottom: 0px; 
 }
 
 header.startup h1 {
   font-size: 2rem; 
+}
+h1 {
+  text-shadow: 2px 2px #ff0000;
 }
 
 .btn {
